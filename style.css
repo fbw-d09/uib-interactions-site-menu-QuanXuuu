@@ -48,7 +48,7 @@ nav ul li a
     border-left: 5px solid #15bfbb;
 }
 
-#home:hover
+/* #home:hover
 {
     animation-name: colorchange;
     animation-duration: 3s;
@@ -68,4 +68,28 @@ nav ul li a
         background-color: #5366c3;
         color: #ffffff;
     }
+} */
+
+nav ul li a:hover
+{
+    color: #ffffff;
+}
+
+#home:hover
+{
+    background-color: #5366c3;
+}
+
+#about:hover{
+    background-color: #3f83c0;
+}
+
+#work:hover
+{
+    background-color: #2aa1bd;
+}
+
+#contact:hover
+{
+    background-color: #15bfbb;
 }
