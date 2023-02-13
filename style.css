@@ -75,21 +75,21 @@ nav ul li a:hover
     color: #ffffff;
 }
 
-ul li:nth-child(1):hover
+ul li:nth-child(1) a:hover
 {
     background-color: #5366c3;
 }
 
-ul li:nth-child(2):hover{
+ul li:nth-child(2) a:hover{
     background-color: #3f83c0;
 }
 
-ul li:nth-child(3):hover
+ul li:nth-child(3) a:hover
 {
     background-color: #2aa1bd;
 }
 
-ul li:nth-child(4):hover
+ul li:nth-child(4) a:hover
 {
     background-color: #15bfbb;
 }
