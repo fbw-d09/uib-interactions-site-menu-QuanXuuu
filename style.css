@@ -28,22 +28,22 @@ nav ul li a
     cursor: pointer;
 }
 
-#home
+ul li:nth-child(1)
 {
     border-left: 5px solid #5366c3;
 }
 
-#about
+ul li:nth-child(2)
 {
     border-left: 5px solid #3f83c0;
 }
 
-#work
+ul li:nth-child(3)
 {
     border-left: 5px solid #2aa1bd;
 }
 
-#contact
+ul li:nth-child(4)
 {
     border-left: 5px solid #15bfbb;
 }
@@ -75,21 +75,21 @@ nav ul li a:hover
     color: #ffffff;
 }
 
-#home:hover
+ul li:nth-child(1):hover
 {
     background-color: #5366c3;
 }
 
-#about:hover{
+ul li:nth-child(2):hover{
     background-color: #3f83c0;
 }
 
-#work:hover
+ul li:nth-child(3):hover
 {
     background-color: #2aa1bd;
 }
 
-#contact:hover
+ul li:nth-child(4):hover
 {
     background-color: #15bfbb;
 }
